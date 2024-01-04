@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;
+    font-family: "baloo_paaji_2regular";
+}
+
+@font-face {
+    font-family: "baloo_paaji_2regular";
+    src: url("../fonts/baloopaaji2-regular-webfont.woff2")
+            format("woff2"),
+        url("../fonts/baloopaaji2-regular-webfont.woff")
+            format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background:#7fffd4;
+}
+header div.left h1 a img{
+    width: 40px;
+    align-items: center;
+}
+header div.right h1{
+    margin-right: 20px;
+    color: #03043E;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+}
+header div.right a.button{
+    text-decoration: none;
+    background-color: #336296;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+header div.right a.button:hover{
+    background:#58799f;
+}
+section.container{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    border:1px solid #EBECF0;
+}
+section.container section.wrapper{
+    width:68%;
+    margin:0px auto;
+    text-align:center;
+    padding-bottom:40px;
+}
+section.container h1{
+    padding-top:60px;
+    margin-top:0px;
+    font-size:38px;
+}
+section.container h2{
+    margin-top:30px;
+    font-size:30px;
+    text-align:left;
+    color:#03043E;
+}
+section.container div.top ul li span.right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+section.container div.top ul li span.right button.edit {
+    width: 16px;
+    margin-right: 16px;
+}
+section.container div.top ul li span.right button.edit img{
+    display: block;
+    width: 100%;
+}
+section.container ul{
+    list-style: none;
+    text-align: left;
+}
+section.container ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+section.container span.left{
+    display: flex;
+    align-items: center;
+}
+section.container span.left span.button{
+    width: 25px;
+    height: 25px;
+    border:1.5px solid #03043E;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+}
+section.container span.left span.content{
+    font-size: 22px;
+}
+section.container span.left span.button:hover{
+    background: rgba(3, 4, 62, 0.2);
+}
+section.container span.right{
+    display: inline-block;
+}
+section.container span.right button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+section.container span.right button img{
+    width: 80%;
+}
+section.container form span{
+    position: relative;
+}
+section.container form span input{
+    display: inline-block;
+    font-size: 18px;
+    width: 88%;
+    padding: 10px 30px;
+    margin-left: 22px;
+}
+section.container form span img{
+    display: inline-block;
+    width: 3%;
+    position: absolute;
+    top:5px;
+    left:30px;
+}
+section.container form span button.input{
+    background-color: #03043E;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 13.5px 20px;
+    border-top-right-radius:8px ;
+    border-bottom-right-radius:8px ;
+    position: absolute;
+    right: -20px;
+}
+
+section.container div.bottom ul li span.left span.completed img{
+    display: inline-block;
+    width:100%;
+    border:1.5px solid #59c295;
+    border-radius: 50%;
+    padding: 4px ;
+}
+section.container div.bottom ul li span.left span.content{
+    color: #59c295;
+    margin-left: 10px;
+}
+section.container div.bottom ul li span.right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+section.container div.bottom ul li span.right button.revert{
+    margin-right: 12px;
+}
+
+section.main{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+section.main section.wrapper{
+    width:68%;
+    margin:0px auto;
+    padding-bottom:40px;
+}
+section.main section.wrapper h1{
+    margin-top: 180px;
+    text-align: center;
+    font-size: 30px;
+    color: #03043E;
+}
+ section.main section.wrapper form{
+    margin-top: 10px;
+    background-color:#7fffd4;
+    padding: 40px 0px;
+    text-align: center;
+}
+section.main section.wrapper form span{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+section.main section.wrapper form label{
+    color:#03043E;
+    font-weight: 600;
+}
+section.main section.wrapper form input{
+    font-size: 14px;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+section.main section.wrapper form button{
+    text-align: center;
+    background-color: #03043E;
+    border: 1px solid #fff;
+    margin-top: 16px;
+    color: #fff;
+    padding:5px 20px;
+    cursor: pointer;
+    border-radius: 10px ;
+}
+section.main section.wrapper form button:hover{
+    background-color: #336296;
+}
+
+section.main section.wrapper form p{
+    color: #d82316;
+    font-size: 18px;
+}
+section.main section.wrapper form a.sign_up{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #03043E;
+    font-size: 16px;
+}
+section.main section.wrapper form a.sign_up:hover{
+    color: #7c0a02;
+    text-decoration-line: underline;
+}
+
+section.update{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+section.update section.wrapper{
+    position: relative;
+    width:68%;
+    margin:0px auto;
+    padding-bottom:40px;
+}
+section.update section.wrapper h1{
+    margin-top: 180px;
+    text-align: center;
+    font-size: 30px;
+    color: #03043E;
+}
+section.update section.wrapper p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24px;
+    color:#336296;
+}
+ section.update section.wrapper form{
+    margin-top: 10px;
+    background-color:#7fffd4;
+    padding: 40px 0px;
+    text-align: center;
+}
+section.update section.wrapper form span{
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 16px;
+}
+section.update section.wrapper form input{
+    display: block;
+    font-size: 18px;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+section.update section.wrapper form button{
+    background-color: #03043E;
+    border: 1px solid #fff;
+    margin-top: 16px;
+    color: #fff;
+    padding:5px 20px;
+    cursor: pointer;
+    border-radius: 10px ;
+}
+section.update section.wrapper form button.cancel{  
+    background-color: #7c0a02;
+    margin-left: 20px;
+}
+section.update section.wrapper form button:hover{
+    background-color: #336296;
+}
+
+@media all and (max-width:680px){
+    section.main section.wrapper{
+        width: 100%;
+    }
+    section.main section.wrapper form span{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    section.main section.wrapper form label{
+        margin-right: 100px;
+    }
+    section.main section.wrapper form input{
+        width: 80%;
+    }
+    section.main section.wrapper form a.sign_up{
+        display: block;
+        margin-top: 20px;
+    }
+    header div.left{
+        display: none;
+    }
+    section.container{
+        width: 100%;
+    }
+    section.container section.wrapper{
+        width: 100%;
+    }
+    section.container form span button.input{
+        position: unset;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    section.update{
+        width: 100%;
+    }
+    section.update section.wrapper{
+        width:100%;
+    }
+}
